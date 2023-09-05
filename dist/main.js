@@ -1,0 +1,1 @@
+(()=>{let e=document.querySelector("#content");const t=document.createElement("div"),d=document.createElement("div"),n=document.createElement("div");t.setAttribute("id","header"),t.innerHTML="test",d.setAttribute("id","main"),n.setAttribute("id","footer"),e.appendChild(t),e.appendChild(d),e.appendChild(n)})();
