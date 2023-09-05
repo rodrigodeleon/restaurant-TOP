@@ -1,0 +1,30 @@
+#content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+#header {
+    background-color: antiquewhite;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+#main {
+    display: flex;
+    height: 90vh;
+}
+#footer {
+    height: 3rem;
+    justify-content: flex-end;
+    background-color: antiquewhite;
+}
+
+.headerNav {
+    background-color: aliceblue;
+    padding: 1rem 3rem;
+    border-radius: 5px;
+}
