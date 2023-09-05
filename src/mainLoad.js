@@ -12,11 +12,12 @@ function loadMainPage() {
   header.setAttribute("id", "header");
   main.setAttribute("id", "main");
   footer.setAttribute("id", "footer");
-  footer.textContent = "The Restaurant 2023";
+  footer.textContent = "El Secreto 2023";
   content.append(header, main, footer);
 }
 
-function loadMainMenu() {
+function loadNav() {
+
   const header = document.querySelector("#header");
   const menu = document.createElement("div");
   const home = document.createElement("div");
@@ -32,7 +33,7 @@ function loadMainMenu() {
   home.textContent = "Home";
   contact.textContent = "Contact";
 
-  header.append(menu, home, contact);
+  header.append(home, menu, contact);
 }
 
-export { loadMainPage, loadMainMenu };
+export { loadMainPage, loadNav };
