@@ -12,7 +12,7 @@ function loadMainPage() {
   header.setAttribute("id", "header");
   main.setAttribute("id", "main");
   footer.setAttribute("id", "footer");
-
+  footer.textContent = "The Restaurant 2023";
   content.append(header, main, footer);
 }
 
@@ -22,8 +22,11 @@ function loadMainMenu() {
   const home = document.createElement("div");
   const contact = document.createElement("div");
   menu.classList.add("headerNav");
+  menu.setAttribute("id", "menu");
   home.classList.add("headerNav");
+  home.setAttribute("id", "home");
   contact.classList.add("headerNav");
+  contact.setAttribute("id", "contact");
 
   menu.textContent = "Menu";
   home.textContent = "Home";
